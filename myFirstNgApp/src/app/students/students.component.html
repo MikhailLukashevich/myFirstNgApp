@@ -1,3 +1,21 @@
-<p>
-  students page!
-</p>
+<table class="table table-striped">
+  <caption><b>List students:</b></caption>
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Name</th>
+      <th>Course</th>
+      <th>Average Score</th>
+      <th>Age</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let student of students; let i = index">
+      <th scope="row">{{i + 1}}</th>
+      <td>{{student?.name}}</td>
+      <td>{{student?.course}}</td>
+      <td>{{student?.averagescore}}</td>
+      <td>{{student?.age}}</td>
+    </tr>
+  </tbody>
+</table>

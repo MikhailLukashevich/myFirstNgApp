@@ -1,0 +1,16 @@
+[{
+    "name": "Bob",
+    "course": 1,
+    "averagescore": 9.5,
+    "age": 17
+},{
+    "name": "Tom",
+    "course": 2,
+    "averagescore": 6.4,
+    "age": 20
+},{
+    "name": "Alice",
+    "course": 3,
+    "averagescore": 8.4,
+    "age": 21
+}]

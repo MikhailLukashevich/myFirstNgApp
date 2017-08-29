@@ -1,0 +1,24 @@
+a{
+    color: #73A700;
+    font-size: 150%;
+}
+nav a.active{
+    background: #125651;
+    font-weight: bold;
+}
+.a_hover:hover{
+    background: #006D65;
+}
+nav {
+  position: relative;
+}
+ul {
+  position: absolute;
+  left: 20%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
